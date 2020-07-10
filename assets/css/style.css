@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color:rgb(0, 10, 56);
+    font-family: 'Roboto', sans-serif;
+}
+
+svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.box{
+    background-color: #fff;
+    width: 40%;
+    height: 250px;
+    padding: 50px;
+    border-radius: 20px;
+    transform: translate(50%,30%);
+}
+
+
+.box .form{
+    float: left;
+    width: 40%;
+}
+
+.box h1{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.box h1::after{
+    content: '';
+    border-top: 2px solid rgb(0, 10, 56);
+    width: 15%;
+    position: absolute;
+    margin-top: 50px;
+    left: 42%;
+}
+
+.box input{
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid;
+    width: 75%;
+}
+
+.box input:focus{
+    border: 2px solid rgb(0, 10, 56);   
+}
+
+
+.box select{
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid;
+    width: 80%;
+}
+
+.box button{
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: rgb(0, 10, 56);
+    color: #fff;
+    width: 80%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.box .resultado{
+    float: right;
+    width: 50%;
+}
+
+.box .resultado img{
+    width: 30%;
+}
+
+.box .resultado li{
+    list-style: none;
+    background-color: rgb(0, 10, 56);
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
